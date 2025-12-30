@@ -15,6 +15,7 @@
         <th>Товар</th>
         <th>Цена</th>
         <th>Магазин</th>
+        <th>Действия</th>
     </tr>
 
     {% for item in items %}
@@ -28,13 +29,20 @@
             {% endif %}
         </td>
         <td>{{ item.shop or "—" }}</td>
+        <td>
+            <form method="post" action="/delete/{{ item.id }}">
+                <button type="submit">Удалить</button>
+            </form>
+        </td>
     </tr>
     {% endfor %}
 </table>
 
 <br>
+
 <form method="post" action="/run">
     <button type="submit">Запустить парсер</button>
 </form>
+
 </body>
 </html>

@@ -31,10 +31,12 @@ def index():
         shop = price_log.shop if price_log else None
 
         items.append({
+            "id": p.id,
             "name": p.name,
             "price": min_price,
             "shop": shop
         })
+
 
     items = sorted(
         items,
@@ -79,6 +81,21 @@ def add_product():
 
     return render_template("add.html")
 
+@app.route("/delete/<int:product_id>", methods=["POST"])
+def delete_product(product_id):
+    product = Product.query.get_or_404(product_id)
+
+    # удаляем историю цен
+    PriceLog.query.filter_by(product_id=product_id).delete()
+
+    # удаляем ссылки
+    Link.query.filter_by(product_id=product_id).delete()
+
+    # удаляем сам товар
+    db.session.delete(product)
+    db.session.commit()
+
+    return redirect("/")
 
 if __name__ == "__main__":
     app.run(debug=True)

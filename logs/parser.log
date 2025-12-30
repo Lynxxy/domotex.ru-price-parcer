@@ -172,3 +172,26 @@
 2025-12-30 17:17:38,687 | INFO | Цена сохранена | товар_id=8 | магазин=domotex.ru | цена=2700
 2025-12-30 17:17:38,687 | INFO | 127.0.0.1 - - [30/Dec/2025 17:17:38] "[32mPOST /run HTTP/1.1[0m" 302 -
 2025-12-30 17:17:38,706 | INFO | 127.0.0.1 - - [30/Dec/2025 17:17:38] "GET / HTTP/1.1" 200 -
+2025-12-30 17:23:44,986 | INFO | ====== WebDriver manager ======
+2025-12-30 17:23:45,833 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:23:46,389 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:23:46,941 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:23:54,915 | INFO | Цена сохранена | товар_id=1 | магазин=domotex.ru | цена=6749
+2025-12-30 17:23:54,916 | INFO | ====== WebDriver manager ======
+2025-12-30 17:23:55,955 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:23:56,528 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:23:57,074 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:24:03,937 | INFO | Цена сохранена | товар_id=2 | магазин=domotex.ru | цена=30020
+2025-12-30 17:24:03,938 | INFO | ====== WebDriver manager ======
+2025-12-30 17:24:04,720 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:24:05,278 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:24:05,825 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:24:13,993 | INFO | Цена сохранена | товар_id=3 | магазин=domotex.ru | цена=13990
+2025-12-30 17:24:13,994 | INFO | ====== WebDriver manager ======
+2025-12-30 17:24:14,778 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:24:15,328 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:24:15,869 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:24:23,708 | INFO | Цена сохранена | товар_id=4 | магазин=domotex.ru | цена=1150
+2025-12-30 17:24:23,710 | INFO | 127.0.0.1 - - [30/Dec/2025 17:24:23] "[32mPOST /run HTTP/1.1[0m" 302 -
+2025-12-30 17:24:23,727 | INFO | 127.0.0.1 - - [30/Dec/2025 17:24:23] "GET / HTTP/1.1" 200 -
+2025-12-30 17:31:55,772 | INFO |  * Detected change in 'C:\\Users\\lynxy\\Documents\\GitHub\\domotex.ru-price-parcer\\app.py', reloading
