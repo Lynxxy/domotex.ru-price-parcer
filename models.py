@@ -1,7 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-
+db = SQLAlchemy()
 
 
 class Product(db.Model):
@@ -9,9 +9,6 @@ class Product(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255), nullable=False)
-
-    links = db.relationship("Link", backref="product", lazy=True)
-    prices = db.relationship("PriceLog", backref="product", lazy=True)
 
 
 class Link(db.Model):
