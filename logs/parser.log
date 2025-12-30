@@ -93,3 +93,82 @@
 2025-12-30 17:02:16,663 | INFO | 127.0.0.1 - - [30/Dec/2025 17:02:16] "GET / HTTP/1.1" 200 -
 2025-12-30 17:03:08,366 | INFO | 127.0.0.1 - - [30/Dec/2025 17:03:08] "GET / HTTP/1.1" 200 -
 2025-12-30 17:03:10,079 | INFO | 127.0.0.1 - - [30/Dec/2025 17:03:10] "GET / HTTP/1.1" 200 -
+2025-12-30 17:10:54,973 | INFO | ====== WebDriver manager ======
+2025-12-30 17:10:55,797 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:10:56,333 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:10:56,877 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:11:24,657 | INFO | Цена сохранена | товар_id=1 | магазин=domotex.ru | цена=1800
+2025-12-30 17:11:24,658 | INFO | ====== WebDriver manager ======
+2025-12-30 17:11:25,448 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:11:25,993 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:11:26,534 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:11:34,548 | INFO | Цена сохранена | товар_id=2 | магазин=domotex.ru | цена=5840
+2025-12-30 17:11:34,549 | INFO | ====== WebDriver manager ======
+2025-12-30 17:11:35,336 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:11:35,897 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:11:36,453 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:11:44,428 | INFO | Цена сохранена | товар_id=3 | магазин=domotex.ru | цена=7600
+2025-12-30 17:11:44,429 | INFO | ====== WebDriver manager ======
+2025-12-30 17:11:45,215 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:11:45,768 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:11:46,327 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:11:54,480 | INFO | Цена сохранена | товар_id=4 | магазин=domotex.ru | цена=7568
+2025-12-30 17:11:54,481 | INFO | ====== WebDriver manager ======
+2025-12-30 17:11:55,307 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:11:55,854 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:11:56,401 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:12:03,236 | INFO | Цена сохранена | товар_id=5 | магазин=domotex.ru | цена=11200
+2025-12-30 17:12:03,237 | INFO | ====== WebDriver manager ======
+2025-12-30 17:12:04,028 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:12:04,597 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:12:05,143 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:12:13,065 | INFO | Цена сохранена | товар_id=6 | магазин=domotex.ru | цена=2990
+2025-12-30 17:12:13,066 | INFO | ====== WebDriver manager ======
+2025-12-30 17:12:13,849 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:12:14,399 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:12:14,950 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:12:23,632 | INFO | Цена сохранена | товар_id=7 | магазин=domotex.ru | цена=16990
+2025-12-30 17:12:23,632 | INFO | 127.0.0.1 - - [30/Dec/2025 17:12:23] "[32mPOST /run HTTP/1.1[0m" 302 -
+2025-12-30 17:12:23,698 | INFO | 127.0.0.1 - - [30/Dec/2025 17:12:23] "GET / HTTP/1.1" 200 -
+2025-12-30 17:16:18,169 | INFO | ====== WebDriver manager ======
+2025-12-30 17:16:19,027 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:16:19,577 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:16:20,137 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:16:28,569 | INFO | Цена сохранена | товар_id=1 | магазин=domotex.ru | цена=1800
+2025-12-30 17:16:28,569 | INFO | ====== WebDriver manager ======
+2025-12-30 17:16:29,380 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:16:29,939 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:16:30,502 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:16:39,008 | INFO | Цена сохранена | товар_id=2 | магазин=domotex.ru | цена=5840
+2025-12-30 17:16:39,009 | INFO | ====== WebDriver manager ======
+2025-12-30 17:16:39,827 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:16:40,522 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:16:41,086 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:16:49,021 | INFO | Цена сохранена | товар_id=3 | магазин=domotex.ru | цена=7600
+2025-12-30 17:16:49,021 | INFO | ====== WebDriver manager ======
+2025-12-30 17:16:49,845 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:16:50,422 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:16:50,988 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:16:58,935 | INFO | Цена сохранена | товар_id=4 | магазин=domotex.ru | цена=7568
+2025-12-30 17:16:58,935 | INFO | ====== WebDriver manager ======
+2025-12-30 17:16:59,737 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:17:00,310 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:17:00,864 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:17:08,704 | INFO | Цена сохранена | товар_id=5 | магазин=domotex.ru | цена=11200
+2025-12-30 17:17:08,704 | INFO | ====== WebDriver manager ======
+2025-12-30 17:17:09,508 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:17:10,072 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:17:10,630 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:17:18,554 | INFO | Цена сохранена | товар_id=6 | магазин=domotex.ru | цена=2990
+2025-12-30 17:17:18,554 | INFO | ====== WebDriver manager ======
+2025-12-30 17:17:19,410 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:17:19,998 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:17:20,588 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:17:28,732 | INFO | Цена сохранена | товар_id=7 | магазин=domotex.ru | цена=16990
+2025-12-30 17:17:28,733 | INFO | ====== WebDriver manager ======
+2025-12-30 17:17:29,537 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:17:30,115 | INFO | Get LATEST chromedriver version for google-chrome
+2025-12-30 17:17:30,779 | INFO | Driver [C:\Users\lynxy\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-30 17:17:38,687 | INFO | Цена сохранена | товар_id=8 | магазин=domotex.ru | цена=2700
+2025-12-30 17:17:38,687 | INFO | 127.0.0.1 - - [30/Dec/2025 17:17:38] "[32mPOST /run HTTP/1.1[0m" 302 -
+2025-12-30 17:17:38,706 | INFO | 127.0.0.1 - - [30/Dec/2025 17:17:38] "GET / HTTP/1.1" 200 -

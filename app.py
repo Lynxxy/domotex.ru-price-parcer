@@ -20,25 +20,35 @@ def index():
 
     products = Product.query.all()
     for p in products:
-        price = (
+        price_log = (
             PriceLog.query
             .filter_by(product_id=p.id)
             .order_by(PriceLog.price.asc())
             .first()
         )
 
+        min_price = price_log.price if price_log else None
+        shop = price_log.shop if price_log else None
+
         items.append({
             "name": p.name,
-            "price": price.price if price else None,
-            "shop": price.shop if price else None
+            "price": min_price,
+            "shop": shop
         })
+
+    items = sorted(
+        items,
+        key=lambda x: x["price"] if x["price"] is not None else float("inf")
+    )
 
     return render_template("index.html", items=items)
 
 
+
+
 @app.route("/run", methods=["POST"])
 def run_parser():
-    # импорт ВНУТРИ функции — ключ к решению циклического импорта
+
     from parser.run_domotex import run_domotex_parser
 
     run_domotex_parser()

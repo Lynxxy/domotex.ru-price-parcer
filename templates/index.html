@@ -20,7 +20,13 @@
     {% for item in items %}
     <tr>
         <td>{{ item.name }}</td>
-        <td>{{ item.price or "—" }}</td>
+        <td>
+            {% if item.price %}
+                {{ item.price }} ₽
+            {% else %}
+                —
+            {% endif %}
+        </td>
         <td>{{ item.shop or "—" }}</td>
     </tr>
     {% endfor %}
