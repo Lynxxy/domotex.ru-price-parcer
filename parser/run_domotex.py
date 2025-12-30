@@ -3,14 +3,15 @@ import os
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from app import app
+
+from flask import current_app
 from models import db, Product, Link, PriceLog
 from parser.domotex import parse_price
 from logger import logger
 
 
 def run_domotex_parser():
-    with app.app_context():
+    with current_app.app_context():
         links = Link.query.filter_by(shop="domotex.ru").all()
 
         for link in links:
@@ -35,5 +36,3 @@ def run_domotex_parser():
             )
 
 
-if __name__ == "__main__":
-    run_domotex_parser()

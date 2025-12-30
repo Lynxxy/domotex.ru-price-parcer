@@ -37,6 +37,29 @@ def parse_price(url: str) -> int | None:
     finally:
         driver.quit()
 
+def parse_name(url: str) -> str | None:
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()),
+        options=options
+    )
+
+    driver.get(url)
+    time.sleep(3)
+
+    try:
+        name_element = driver.find_element(
+            By.CSS_SELECTOR,
+            "h1"
+        )
+        return name_element.text.strip()
+    except Exception:
+        return None
+    finally:
+        driver.quit()
 
 
 

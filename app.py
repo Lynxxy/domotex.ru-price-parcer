@@ -1,5 +1,8 @@
-from flask import Flask
-from models import db
+from flask import Flask, render_template, redirect
+from models import db, Product, Link, PriceLog
+from flask import request
+from parser.domotex import parse_name
+
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///prices.db"
@@ -13,7 +16,58 @@ with app.app_context():
 
 @app.route("/")
 def index():
-    return "DB initialized"
+    items = []
+
+    products = Product.query.all()
+    for p in products:
+        price = (
+            PriceLog.query
+            .filter_by(product_id=p.id)
+            .order_by(PriceLog.price.asc())
+            .first()
+        )
+
+        items.append({
+            "name": p.name,
+            "price": price.price if price else None,
+            "shop": price.shop if price else None
+        })
+
+    return render_template("index.html", items=items)
+
+
+@app.route("/run", methods=["POST"])
+def run_parser():
+    # импорт ВНУТРИ функции — ключ к решению циклического импорта
+    from parser.run_domotex import run_domotex_parser
+
+    run_domotex_parser()
+    return redirect("/")
+
+@app.route("/add", methods=["GET", "POST"])
+def add_product():
+    if request.method == "POST":
+        url = request.form["url"]
+
+        name = parse_name(url)
+        if not name:
+            name = "Товар без названия"
+
+        product = Product(name=name)
+        db.session.add(product)
+        db.session.commit()
+
+        link = Link(
+            product_id=product.id,
+            url=url,
+            shop="domotex.ru"
+        )
+        db.session.add(link)
+        db.session.commit()
+
+        return redirect("/")
+
+    return render_template("add.html")
 
 
 if __name__ == "__main__":
